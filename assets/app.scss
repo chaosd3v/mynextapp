@@ -1,0 +1,81 @@
+$enable-shadows: true;
+$primary: rgb(50, 146, 211);
+$body-color:  #525153;
+$body-bg: #ffffff;
+
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+
+.login-wrap {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+    border: 1px;
+    border-color: #949191;
+
+    img{
+      display: block;
+      margin: 0 auto;
+    }
+
+    h1{
+      text-align: center;
+    }
+  }
+
+  
+}
+
+span{
+    color: #a0292f;
+}
+
+
+.register-wrap {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  
+    .form-register {
+      width: 100%;
+      max-width: 330px;
+      padding: 15px;
+      margin: 0 auto;
+      border: 1px;
+      border-color: #949191;
+  
+      img{
+        display: block;
+        margin: 0 auto;
+      }
+  
+      h1{
+        text-align: center;
+      }
+    }
+}
+
+  
+.btn-primary:hover{
+  background-color: #181718;
+  border-color: #181718;
+}
+
+
+.btn-success:hover{
+  background-color: #181718;
+  border-color: #181718;
+}
+
+.btn-danger:hover{
+  background-color: #181718;
+  border-color: #181718;
+}

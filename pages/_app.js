@@ -1,7 +1,8 @@
-import '../styles/globals.css'
+// File - /pages/_app.js
+import '../assets/app.scss'
 
-function MyApp({ Component, pageProps }) {
+function Login({ Component, pageProps }) {
   return <Component {...pageProps} />
 }
 
-export default MyApp
+export default Login
