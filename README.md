@@ -1,5 +1,5 @@
-## MyNextApp
-This is the assignment code repository for the Fullstack internship.
+## MyNextapp
+This is a simple bootstraped demo login app
 
 ## UI Pages
 Login Page,
